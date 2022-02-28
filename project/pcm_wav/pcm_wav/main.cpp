@@ -55,7 +55,7 @@ int pcvToWav(const char* pcmpath, int channles, int sample_rate,int fmtsize, con
 	WAV_FMT pcmFmt;
 	WAV_DATA pcmData;
 
-	int bits = 16;
+	int bits = 8;
 
 	//打开输入的文件流
 	fp=fopen(pcmpath, "rb");
